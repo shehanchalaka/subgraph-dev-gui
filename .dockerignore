@@ -1,0 +1,5 @@
+.vscode
+.next
+.env
+.gitignore
+node_modules
