@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:docker": "docker buildx build --platform=linux/amd64 -t shehanchalaka/subgraph-dev-gui:latest .",
+    "build:docker:push": "docker buildx build --platform=linux/amd64 -t shehanchalaka/subgraph-dev-gui:latest --push ."
   },
   "dependencies": {
     "graphql": "^16.5.0",
